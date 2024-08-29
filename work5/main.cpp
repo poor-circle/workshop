@@ -1,5 +1,3 @@
-
-
 import std;
 // #include<fmt/core.h>
 // #include<fmt/ranges.h>
