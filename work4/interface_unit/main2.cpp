@@ -1,7 +1,7 @@
-// 请尝试：只导入模块my_lib.foo，不要导入my_lib.bar
+// 请尝试：导入模块my_lib.foo，而不导入my_lib.bar
 // import xxx;
-import std;
-import my_lib.foo;
 int main() {
     std::cout<<my_lib::foo()<<std::endl;
+    // 下面这行代码应该报错
+    // std::cout<<my_lib::bar()<<std::endl; 
 }

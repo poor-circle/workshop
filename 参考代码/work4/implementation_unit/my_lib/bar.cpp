@@ -1,4 +1,4 @@
-// 在这里，我们声明了一个模块my_lib但不添加export 关键字，代表这是一个implementation unit，用于实现模块内的声明
+// 在这里，我们声明了一个模块my_lib但不添加export关键字，代表这是一个implementation unit，用于实现模块内的声明
 module my_lib;
 // 导入标准库
 import std;
