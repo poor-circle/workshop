@@ -2,11 +2,20 @@
 这是一个简单的C++ Module入门教程，包含：环境搭建和语法介绍等内容。
 ## 运行环境：
 ### docker
-```cpp
+1. 启动并执行容器
+```shell
 docker run -it myoj2/clang-cxx-module-workshop /bin/bash
-su workshop 
-cd ~/workshop
+su workshop
+cd ~
 ```
+或者长时间运行容器再使用ssh登录：（ssh账户和密码均为`workshop`）
+```shell
+docker run -p 50000:22 --restart=always myoj2/clang-cxx-module-workshop sh -c "/usr/sbin/sshd ; bash"
+ssh workshop@localhost -p 50000 
+```
+
+代码位于`~/workshop`路径（`/home/workshop/workshop`)
+
 ### 手动安装
 以ubuntu 24.04环境为例：
 1. 安装wget，xz，cmake
