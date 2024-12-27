@@ -111,3 +111,4 @@ make install -j
 ```
 4. 安装gcc
 5. 安装xmake
+6. 克隆教程代码
