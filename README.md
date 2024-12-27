@@ -10,7 +10,7 @@ cd ~/workshop
 ### 手动安装
 以ubuntu 24.04环境为例：
 1. 安装wget，xz，cmake
-2. 在某个文件夹保存下面脚本，执行以编译最新clang
+2. 在某个文件夹保存下面脚本，执行以编译clang
 ```shell
 #!/bin/bash
 
