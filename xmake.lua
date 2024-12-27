@@ -1,4 +1,6 @@
 add_rules("mode.release")
+set_toolchains("clang")
+set_runtimes("c++_shared")
 set_languages("c++23")
 add_cxxflags("clang::-stdlib=libc++")
 add_cxxflags("clang::-fuse-ld=lld")
