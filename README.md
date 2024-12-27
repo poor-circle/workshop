@@ -10,7 +10,7 @@ cd ~
 ```
 如随后需要使用ssh登录：（ssh账户和密码均为`workshop`）
 ```shell
-docker run -p 50000:22 --restart=always -it myoj2/clang-cxx-module-workshop :latest sh -c "/usr/sbin/sshd ; bash"
+docker run -p 50000:22 --restart=always -it myoj2/clang-cxx-module-workshop:latest sh -c "/usr/sbin/sshd ; bash"
 ssh workshop@localhost -p 50000 
 ```
 
