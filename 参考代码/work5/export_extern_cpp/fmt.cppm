@@ -1,9 +1,12 @@
 module;
 import std;
 
+#include<cstring>
 #include<climits>
 #include<cerrno>
 #include<cstdio>
+#include<cstddef>
+#include<cstdint>
 export module fmt;
 //在这里我们定义了宏FMT_MODULE, fmtlib内部检测到这个宏的时候，不会包含其他头文件。
 #define FMT_MODULE
