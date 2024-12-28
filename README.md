@@ -16,6 +16,11 @@ ssh workshop@localhost -p 50000
 
 代码位于`~/workshop`路径（`/home/workshop/workshop`)
 
+为了运行程序，需要添加路径：
+```cpp
+export LD_LIBRARY_PATH=/usr/local/lib/x86_64-unknown-linux-gnu
+```
+
 ### 手动安装
 以ubuntu 24.04环境为例：
 1. 安装wget，xz，cmake
