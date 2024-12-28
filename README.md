@@ -16,7 +16,7 @@ ssh workshop@localhost -p 50000
 
 代码位于`~/workshop`路径（`/home/workshop/workshop`)
 
-为了运行程序，需要添加路径：
+为了运行程序，需要添加libc++路径：
 ```cpp
 export LD_LIBRARY_PATH=/usr/local/lib/x86_64-unknown-linux-gnu
 ```
